@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-family: monospace;
+    background-image: linear-gradient(to right, #1a2980, #26d0ce);
+}  
+.container h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-bottom: 10px;
+    text-decoration: underline rgb(255, 255, 255);
+    color: rgb(248, 248, 0);
+}
+.child1{
+    /* background-color: aqua; */
+    width: 45vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.child1 #takeInput{
+    width: 85%;
+    height: 100%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    background-color: rgba(211, 211, 211, 0.796);
+    color: white;
+}
+.addBtn{
+    width: 13%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.796);
+}
+.addBtn:active{
+  background-color: #3fbb8d;
+  color: white;
+}
+.addBtn i{
+    font-size: 2rem;
+    padding: 0;
+}
+.task{
+    margin-top: 5px;
+    margin-left: 3px;
+    border-radius: 5px;
+    width: 44.5vw;
+    background-color: rgba(211, 211, 211, 0.796);
+    color: white;
+    padding-left: 5px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(108, 108, 108);
+    display: flex;
+    justify-content: space-between;
+}
+.deletebtn{
+    height: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.deletebtn i{
+    font-size: 1.2rem;
+}
+.deletebtn:hover{
+    background-color: rgb(255, 106, 106);
+}
